@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b29679a8-b31f-4933-bf1d-fc77e5eb0bb4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PandasEx.py</StartupFile>
+    <StartupFile>softmax.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ReadWriteCSV.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="softmax.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

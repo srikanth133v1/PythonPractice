@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b29679a8-b31f-4933-bf1d-fc77e5eb0bb4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>softmax.py</StartupFile>
+    <StartupFile>croosentropy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="croosentropy.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DictEx.py">
       <SubType>Code</SubType>
     </Compile>
